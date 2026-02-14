@@ -3,7 +3,6 @@ from pathlib import Path
 
 import pytest
 
-# Ajouter la racine du projet au PYTHONPATH pour GitHub Actions
 ROOT_DIR = Path(__file__).resolve().parent.parent
 if str(ROOT_DIR) not in sys.path:
     sys.path.append(str(ROOT_DIR))
