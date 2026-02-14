@@ -4,7 +4,6 @@ app = Flask(__name__)
 
 API_VERSION = "1.0"
 
-# "Base de données" en mémoire (liste Python)
 SERVERS = [
     {"id": 1, "hostname": "web-prod-01", "ip": "10.0.0.1", "status": "up"},
     {"id": 2, "hostname": "db-prod-01", "ip": "10.0.0.2", "status": "down"},
@@ -30,5 +29,4 @@ def get_server_by_id(server_id: int):
 
 
 if __name__ == "__main__":
-    # Host 0.0.0.0 pour compatibilité Docker, port 5000 demandé par le TP
     app.run(host="0.0.0.0", port=5000, debug=True)
