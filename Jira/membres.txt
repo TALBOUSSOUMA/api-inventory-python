@@ -1,0 +1,9 @@
+Membre 1 — Product Owner (PO): Mohamed HAJJI RAFYA
+
+Membre 2 — Scrum Master: Benedicte TALBOUSSAMA
+
+Membre 3 — Dev Backend: Achraf FAOUZI
+
+Membre 4 — QA / Test Engineer: Magyd BARONI
+
+Membre 5 — DevOps / CI-CD / Docker : Amine EYCH CHALYOUAT
